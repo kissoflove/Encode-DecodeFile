@@ -1,2 +1,2 @@
 # Encode-DecodeFile
-Use the DES to encrypt or decrypt the file
+Use the DES to encrypt or decrypt the .plist file
