@@ -105,6 +105,10 @@
                                                                            options:NSPropertyListImmutable
                                                                             format:&format
                                                                              error:&error];
+                
+                //转化为.plist文件
+                [MHFileTool createDir:@"test.plist"];
+                
                 NSLog( @"plist is %@", plist );
                 if(!plist){
                     NSLog(@"Error: %@",error);
